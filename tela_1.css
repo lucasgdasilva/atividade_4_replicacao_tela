@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.barra_superior {
+    margin : 0;
+    height: 50px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 203, 203);
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    box-shadow: 0px 5px 15px 0px #000000;
+}
+
+.flex {
+    display: flex;
+}
+.barra {
+    height: 25px;
+    width: 100%;
+    background-image: repeating-linear-gradient(117deg, #f3d984, #f3d984 50px, #edc972 50px, #edc972 100px);
+}
+
+.bloquinho {
+    height: 30px;
+    width: 60px;
+    border: 2px solid rgb(158, 141, 141);
+    gap: 5px;
+    padding: 3px;
+    background-color: rgb(223, 216, 216);
+}
+.menu {
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(226, 216, 216);
+    gap: 10px;
+}
+
