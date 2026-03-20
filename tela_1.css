@@ -18,30 +18,43 @@
 .flex {
     display: flex;
 }
+
 .barra {
-    height: 23px;
+    height: 22px;
     width: 100%;
     background-image: repeating-linear-gradient(117deg, #f3d984, #f3d984 50px, #edc972 50px, #edc972 100px);
 }
 
 .bloquinho {
     height: 30px;
-    width: 100%;
-    border: 2px solid rgb(158, 141, 141);
+    font-size: 1rem;
+    width: fit-content;
+    border: 1px solid rgb(158, 141, 141);
     gap: 5px;
-    padding: 3px;
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: rgb(223, 216, 216);
     justify-content: center;
     align-items: center;
 }
+
+.barra-menu {
+    height: 45px;
+    width: 100%;
+    background-color: rgb(226, 216, 216);
+    box-shadow: 0px -5px 17px -3px rgba(0,0,0,0.3);
+    padding-left: 10px;
+}
+
 .menu {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
-    height: 40px;
-    width: 100%;
-    background-color: rgb(226, 216, 216);
-    gap: 10px;
+    height: 45px;
+    width: 85%;
+    gap: 15px;
+    align-items: center;
 }
 
 .cancel {
@@ -54,8 +67,4 @@
 
 .apagado {
     opacity: 0.3;
-}
-
-.reload {
-    width: 60px;
 }
