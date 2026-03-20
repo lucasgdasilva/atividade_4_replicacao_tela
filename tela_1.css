@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+background-color: #f1f0f0;
+}
+
 .barra_superior {
     margin : 0;
     height: 50px;
@@ -39,6 +43,10 @@
     align-items: center;
 }
 
+.bloquinho:hover {
+    cursor: pointer;
+}
+
 .barra-menu {
     height: 45px;
     width: 100%;
@@ -65,6 +73,50 @@
     color: black;
 }
 
+.save {
+    color: rgb(19, 120, 167);
+}
+
+.save p {
+    color: black;
+}
+
 .apagado {
     opacity: 0.3;
+}
+
+.navigation {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    width: 450px;
+    height: 850px;
+    background-color: white;
+}
+
+.barra-navigation {
+    height: 55px;
+    padding: 15px;
+    padding-left: 30px;
+    gap: 45px;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #2399bd;
+    background-color: #f7f7f7
+}
+
+#menor {
+    font-size: 1rem;
+    font-weight: none;
+    opacity: 0.5;
+}
+
+#icone {
+    margin-left: 75px;
+}
+
+.tabela{
+    font-size: 1.2rem;
+    border: 1px;
+    color: black;
 }
