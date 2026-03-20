@@ -13,27 +13,30 @@
     padding-top: 7px;
     padding-bottom: 5px;
     padding-left: 20px;
-    box-shadow: 0px 5px 15px 0px #000000;
 }
 
 .flex {
     display: flex;
 }
 .barra {
-    height: 25px;
+    height: 23px;
     width: 100%;
     background-image: repeating-linear-gradient(117deg, #f3d984, #f3d984 50px, #edc972 50px, #edc972 100px);
 }
 
 .bloquinho {
     height: 30px;
-    width: 60px;
+    width: 100%;
     border: 2px solid rgb(158, 141, 141);
     gap: 5px;
     padding: 3px;
     background-color: rgb(223, 216, 216);
+    justify-content: center;
+    align-items: center;
 }
 .menu {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
     height: 40px;
     width: 100%;
@@ -41,3 +44,18 @@
     gap: 10px;
 }
 
+.cancel {
+    color: red;
+}
+
+.cancel p {
+    color: black;
+}
+
+.apagado {
+    opacity: 0.3;
+}
+
+.reload {
+    width: 60px;
+}
