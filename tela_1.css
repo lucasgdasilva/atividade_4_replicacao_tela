@@ -5,7 +5,7 @@
 }
 
 body {
-background-color: rgba(226, 226, 226);
+    background-color: rgba(226, 226, 226);
 }
 
 .barra_superior {
@@ -127,6 +127,7 @@ background-color: rgba(226, 226, 226);
     border: 1px;
     color: black;
 }
+
 .tabela table {
     width: 100%;
     border-collapse: collapse;
@@ -174,7 +175,6 @@ background-color: rgba(226, 226, 226);
     background-color: rgba(242, 242, 242);
     padding: 10px;
     width: 100%;
-
 }
 
 #barra-superior-overview {
