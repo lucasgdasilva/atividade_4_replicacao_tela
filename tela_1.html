@@ -72,94 +72,240 @@
 
     <div class="flex corpo">
         <div class="navigation">
-            <div class=" barra-navigation flex">
+            <div class=" barra-superior flex">
                 <p id="titulo">Navigation</p>
                 <p id="menor">Repositories</p>
                 <svg id="icone" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-folder2" viewBox="0 0 16 16"><path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v7a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 12.5zM2.5 3a.5.5 0 0 0-.5.5V6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3zM14 7H2v5.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5z"/></svg>
             </div>
+            
+            <div class="barra-tabela">
+                <div class="menu-tabela flex">
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-plus-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M8.5 7v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 1 0"/></svg>
+                        <p>New</p>   
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16"><path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/></svg>  
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/></svg>  
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <p>Up</p>
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <p>Down</p>
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wrench" viewBox="0 0 16 16"><path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11z"/></svg>
+                    </div>
+                </div>
+            </div>
     
-    <div class="flex tabela">
-        <table border="1" vc\>
-            <tr>
-                <th>Initial Page</th>
-                <th>INIT</th>
-                <th>$OTR:/SCMT</th>
-            </tr>
+            <div class="flex tabela">
+                <table>
+                    <tr>
+                        <td>
+                        <th>Page Type</th>
+                        <th>Page Id</th>
+                        <th>Title</th>
+                    </tr>
   
-            <tr>
-                <td>Main Page</td>
-                <td>MAIN</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
+                    <tr>
+                        <td>
+                        <td>Initial Page</td>
+                        <td>INIT</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
   
-            <tr>
-                <td>Main Page</td>
-                <td>MAIN_FAST_EI</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
+                    <tr>
+                        <td>
+                        <td>Main Page</td>
+                        <td>MAIN</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
 
-            <tr>
-                <td>Main Page</td>
-                <td>MAIN_FAST_EI</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
+                    <tr>
+                        <td>
+                        <td>Main Page</td>
+                        <td>MAIN_FAST_EI</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
   
-            <tr>
-                <td>Dialog Box</td>
-                <td>ADRESS_DE</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
+                    <tr>
+                        <td>
+                        <td>Main Page</td>
+                        <td>MAIN_FAST_EI</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
   
-            <tr>
-                <td>Dialog Box</td>
-                <td>ACT_LIST</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
+                    <tr>
+                        <td>
+                        <td>Dialog Box</td>
+                        <td>ADRESS_DE</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
 
-            <tr>
-                <td>Dialog Box</td>
-                <td>NOTE_HLP</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
+                    <tr>
+                        <td>
+                        <td>Dialog Box</td>
+                        <td>ACT_LIST</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
 
-            <tr>
-                <td>Dialog Box</td>
-                <td>SEC_FILING_R</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
+                    <tr>
+                        <td>
+                        <td>Dialog Box</td>
+                        <td>NOTE_HLP</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
 
-            <tr>
-                <td>Dialog Box</td>
-                <td>SEC_FILING_R</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
+                    <tr>
+                        <td>
+                        <td>Dialog Box</td>
+                        <td>SEC_FILING_R</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
 
-            <tr>
-                <td>Dialog Box</td>
-                <td>SEC_FILING_R</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
+                    <tr>
+                        <td>
+                        <td>Dialog Box</td>
+                        <td>SEC_FILING_R</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
 
-            <tr>
-                <td>Dialog Box</td>
-                <td>REPACT_NOTE</td>
-                <td>$OTR:/SMT</td>
-            </tr>
+                    <tr>
+                        <td>
+                        <td>Dialog Box</td>
+                        <td>REPACT_NOTE</td>
+                        <td>$OTR:/SMT</td>
+                    </tr>
 
-            <tr>
-                <td>Dialog Box</td>
-                <td>REPACT_ATF</td>
-                <td>$OTR:/SCMT</td>
-            </tr>
-        </table>
+                    <tr>
+                        <td>
+                        <td>Dialog Box</td>
+                        <td>REPACT_ATF</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                </table>
     
+            </div>
         </div>
-        <div class="overview">
 
+        <div class="secao-lateral">
+            <div class="overview">
+                <div class="barra-superior flex" id="barra-superior-overview">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/></svg>
+                    <p id="titulo">Overview Page Schema</p>
+                    <p id="menor">Toolbar Schema</p>
+                    <p id="menor">Wire Schema</p>
+                    <svg id="icone-overview" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-folder2" viewBox="0 0 16 16"><path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v7a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 12.5zM2.5 3a.5.5 0 0 0-.5.5V6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3zM14 7H2v5.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5z"/></svg>
+                </div>
+
+            <div class="barra-overview">
+                <div class="menu-overview flex">
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-plus-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M8.5 7v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 1 0"/></svg>
+                        <p>Page Master Area</p>   
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-plus-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M8.5 7v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 1 0"/></svg>
+                        <p>Section</p>
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-plus-fill" viewBox="0 0 16 16"><path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M8.5 7v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 1 0"/></svg>  
+                        <p>UIBB</p>
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16"><path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/></svg>
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <p>Up</p>
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <p>Down</p>
+                    </div>
+                    <div class="bloquinho flex addMargin" id="bloco-tabela">
+                        <p>Configure UIBB</p>
+                    </div>
+                    <div class="bloquinho flex" id="bloco-tabela">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wrench" viewBox="0 0 16 16"><path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11z"/></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex tabela">
+                <table>
+                    
+                    <tr>
+                        <td>
+                        <th>Element</th>
+                        <th>Component</th>
+                        <th>Config ID</th>
+                        <th>Window Name</th>
+                    </tr>
+                    <tr>
+                        <td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-layout-split" viewBox="0 0 16 16"><path d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5-1v12H14a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-1 0H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h5.5z"/></svg> Section: SECTION_1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-columns" viewBox="0 0 16 16"><path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm8.5 0v8H15V2zm0 9v3H15v-3zm-1-9H1v3h6.5zM1 14h6.5V6H1z"/></svg> UIBB: $OTR:/SCMTMS/UI_...</td>
+                        <td>FPM_FORM_UIBB_GL2</td>
+                        <td>/SCMTMS/WDCC_FWO_GEN</td>
+                        <td>FORM_WINDOW</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-columns" viewBox="0 0 16 16"><path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm8.5 0v8H15V2zm0 9v3H15v-3zm-1-9H1v3h6.5zM1 14h6.5V6H1z"/></svg> UIBB: $OTR:/SCMTMS/UI_...</td>
+                        <td>FPM_FORM_UIBB_GL2</td>
+                        <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                        <td>FORM_WINDOW</td>
+                    </tr>
+  
+                    <tr>
+                        <td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-columns" viewBox="0 0 16 16"><path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm8.5 0v8H15V2zm0 9v3H15v-3zm-1-9H1v3h6.5zM1 14h6.5V6H1z"/></svg> UIBB: $OTR:/SCMTMS/UI_...</td>
+                        <td>FPM_TABBED_UIBB</td>
+                        <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                        <td>TABBED_WINDOW              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/></svg></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-columns" viewBox="0 0 16 16"><path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm8.5 0v8H15V2zm0 9v3H15v-3zm-1-9H1v3h6.5zM1 14h6.5V6H1z"/></svg> UIBB: $OTR:/SCMTMS/UI_...</td>
+                        <td>FPM_TREE_UIBB</td>
+                        <td>/SCMTMS/WDCC_DOC_FLOW</td>
+                        <td>TREE_WINDOW</td>
+                    </tr>
+  
+                    <tr>
+                        <td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-columns" viewBox="0 0 16 16"><path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm8.5 0v8H15V2zm0 9v3H15v-3zm-1-9H1v3h6.5zM1 14h6.5V6H1z"/></svg> UIBB: $OTR:/SCMTMS/UI_...</td>
+                        <td>FPM_TABBED_UIBB</td>
+                        <td>/SCMTMS/WDCC_DOC_TMC_CHARGES_TA</td>
+                        <td>TABBED_WINDOW</td>
+                    </tr>
+                </table>
+            </div>
         </div>
-    </div>
         
-    </body>
+        <div class="overview">
+            <div class="barra-superior flex" id="barra-superior-attributes">
+                <p id="titulo">Attributes of UIBB: $OTR:/SCMTMS/UI_CMN/ADM_INFO</p>
+                <div class="bloquinho flex addLargerMargin" id="bloco-tabela">
+                    <p>Final Flags</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+        
 </body>
 
 </html>
